@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="280" height="130" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect fill="#FF56FF" id="canvas_background" height="132" width="282" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-style="normal" font-weight="normal" stroke="#000" transform="matrix(2.0357465893312106,0,0,1.99999995174862,-3.3667218015584695,-2.9999999503294603) " xml:space="preserve" text-anchor="start" font-family="'Simonetta', serif" font-size="60" id="svg_1" y="52.000001" x="7.08974" stroke-width="5" fill="#000000">NER</text>
+ </g>
+</svg>

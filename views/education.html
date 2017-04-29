@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="author" content="Nathalia Escalante">
+  <meta name="description" content=“Prueba Fundamentos de HTML“>
+  <meta name="viewport" content="width=device-width,user-scalable=no">
+
+  <title>Fundamentos del HTML Nathalia Escalante</title>
+</head>
+
+<body>
+
+  <header>
+    <img src="../images/logo.svg" alt="logo" name="logo" width="200px" height="150px">
+    <h1>Hoja de Vida</h1>
+  </header>
+
+  <nav>
+    <a href="../index.html">Volver</a>
+    <a href="experience.html">Experiencia</a>
+  </nav>
+
+  <h2>Estudios</h2>
+
+  <table border="2">
+    <thead>
+      <th>Año</th>
+      <th>Institución</th>
+      <th>Lugar</th>
+      <th>¿Culminó?</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2006</td>
+        <td>CTPQ</td>
+        <td>Puntarenas, CR</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2012</td>
+        <td>Univ. Latina</td>
+        <td>San José, CR</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>2013</td>
+        <td>Univ. Latina</td>
+        <td>San José, CR</td>
+        <td>No</td>
+      </tr>
+    </tbody>
+  </table>
+  <br/><br/>
+  <form action="">
+    <fieldset>
+      <legend>Agregar Estudios</legend>
+      <p>
+        <label for="anno">Año</label>
+        <select name="anno">
+        <option value="2010">2010</option>
+        <option value="2010">2011</option>
+        <option value="2010">2012</option>
+        <option value="2010">2013</option>
+        <option value="2010">2014</option>
+        <option value="2010">2015</option>
+        <option value="2010">2016</option>
+        <option value="2010">2017</option>
+      </select>
+      </p>
+      <p>
+        <label for="txtInstitution">Intitución</label>
+        <input type="text" name="txtInstitution" required>
+      </p>
+      <p>
+        <label for="txtPlace">Lugar</label>
+        <textarea cols="30" rows="3" name="txtPlace" > </textarea>
+      </p>
+      <p>
+        <label for="finish">¿Culminó? </label>
+        <input type="radio" name="finish" value="yes"> Si
+        <input type="radio" name="finish" value="no"> No
+      </p>
+      <p>
+        <input type="submit" name="submit" value="Enviar">
+      </p>
+    </fieldset>
+  </form>
+
+  <footer>
+    <p>Contacto <a href="mailto:nathy.escalante@gmail.com">nathy.escalante@gmail.com</a></p>
+  </footer>
+</body>
+
+</html>
